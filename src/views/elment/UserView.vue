@@ -1,8 +1,7 @@
 <template>
   <el-container>
     <el-header style="font-size: 40px; background-color: rgb(238, 241, 246)"
-      >Quiz后台管理</el-header
-    >
+      >Quiz后台管理</el-header>
     <el-container>
       <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
         <el-menu :default-openeds="['1']">
@@ -15,8 +14,7 @@
           </el-submenu>
         </el-menu>
       </el-aside>
-      <el-main
-        >Main
+      <el-main>
         <el-form :inline="true" :model="formInline" class="demo-form-inline">
           <el-form-item label="用户名">
             <el-input
